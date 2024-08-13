@@ -9,6 +9,6 @@ jobs:
            - name: "group logging"
              run: 
                 echo "::group::My Groupd Message"
-                echo "Msg 01"
+                echo "Msg 1"
                 echo "Msg 2"
                 echo "::endgroup::"
