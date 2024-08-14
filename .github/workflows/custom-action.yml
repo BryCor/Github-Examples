@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: Brycor/this-is-the-way@e76147da8e5c81eaf017dede5645551d4b94427b
+        uses: Brycor/this-is-the-way@v1.1
         with:
           name: 'Bryan'
       # Use the output from the `hello` step
