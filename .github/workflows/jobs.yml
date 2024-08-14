@@ -1,0 +1,16 @@
+name: "Dep Jobs Examples"
+
+on: [push]
+
+jobs:
+    job2:
+        runs-on: unbutu-latest
+        needs: job1
+        steps:
+          - name: "Step A"
+            run: echo "World!!"
+    job1:
+        runs-on: unbutu-latest
+        steps:
+           - name: "Step B"
+             run: echo "Hello"
